@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Posts on My new Hugo Site on Stackato </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://yourSiteHere/post/index.xml/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Wed, 18 Feb 2015 10:46:05 PST</updated>
+    
+    <item>
+      <title>another post</title>
+      <link>http://yoursitehere/post/another_post/</link>
+      <pubDate>Wed, 18 Feb 2015 10:46:05 PST</pubDate>
+      
+      <guid>http://yoursitehere/post/another_post/</guid>
+      <description>&lt;p&gt;This is another post.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>welcome</title>
+      <link>http://yoursitehere/post/welcome/</link>
+      <pubDate>Wed, 18 Feb 2015 10:46:00 PST</pubDate>
+      
+      <guid>http://yoursitehere/post/welcome/</guid>
+      <description>&lt;p&gt;This is the first post.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
