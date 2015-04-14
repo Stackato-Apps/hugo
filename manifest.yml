@@ -1,6 +1,6 @@
 applications:
 - name: hugo
-  buildpack: https://github.com/cloudfoundry-incubator/staticfile-buildpack
+  buildpack: https://github.com/cloudfoundry-incubator/staticfile-buildpack#v0.4.2
   mem: 32M
   stackato:
     hooks:
