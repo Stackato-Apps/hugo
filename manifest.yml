@@ -1,7 +1,7 @@
 applications:
 - name: hugo
   buildpack: https://github.com/hpcloud/staticfile-buildpack#custom-404
-  mem: 32M
+  memory: 32M
   stackato:
     hooks:
       pre-staging:
