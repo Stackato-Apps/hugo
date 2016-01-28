@@ -1,7 +1,8 @@
 applications:
 - name: hugo
-  buildpack: https://github.com/hpcloud/staticfile-buildpack#custom-404
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack#v1.3.1
   memory: 32M
+  stack: cflinuxfs2
   stackato:
     hooks:
       pre-staging:
