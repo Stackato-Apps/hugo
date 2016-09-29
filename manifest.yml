@@ -1,8 +1,6 @@
 applications:
 - name: hugo
-  buildpack: https://github.com/hpcloud/staticfile-buildpack#custom-404
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack
+  command: ruby public/update_baseurl.rb && sh boot.sh
   memory: 32M
-  stackato:
-    hooks:
-      pre-staging:
-      - ruby update_baseurl.rb
+  stack: cflinuxfs2
